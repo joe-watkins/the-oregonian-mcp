@@ -45,9 +45,15 @@ npm install
 npm start
 ```
 
-### Claude Desktop / Claude Code
+### Claude Code
 
-Add to your MCP configuration:
+```bash
+claude mcp add the-oregonian -- node /absolute/path/to/the-oregonian-mcp/src/index.js
+```
+
+### Claude Desktop
+
+Add to your MCP configuration (`claude_desktop_config.json`):
 
 ```json
 {
