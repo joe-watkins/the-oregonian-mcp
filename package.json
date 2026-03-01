@@ -4,6 +4,15 @@
   "description": "MCP server for OregonLive.com / The Oregonian newspaper — provides tools for fetching news, sports, weather, and more via RSS feeds, plus ad support.",
   "type": "module",
   "main": "src/index.js",
+  "bin": {
+    "the-oregonian-mcp": "src/index.js"
+  },
+  "files": [
+    "src/",
+    "data/",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "start": "node src/index.js",
     "dev": "node src/index.js"
@@ -17,12 +26,23 @@
   },
   "license": "MIT",
   "author": "Joe Watkins",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joe-watkins/the-oregonian-mcp.git"
+  },
+  "homepage": "https://github.com/joe-watkins/the-oregonian-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/joe-watkins/the-oregonian-mcp/issues"
+  },
   "keywords": [
     "mcp",
     "oregonian",
     "oregonlive",
     "news",
     "rss",
-    "model-context-protocol"
+    "model-context-protocol",
+    "claude",
+    "ai",
+    "newspaper"
   ]
 }
