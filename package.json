@@ -1,0 +1,28 @@
+{
+  "name": "the-oregonian-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for OregonLive.com / The Oregonian newspaper — provides tools for fetching news, sports, weather, and more via RSS feeds, plus ad support.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node src/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "fast-xml-parser": "^4.5.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT",
+  "author": "Joe Watkins",
+  "keywords": [
+    "mcp",
+    "oregonian",
+    "oregonlive",
+    "news",
+    "rss",
+    "model-context-protocol"
+  ]
+}

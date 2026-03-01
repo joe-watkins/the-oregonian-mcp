@@ -1,0 +1,125 @@
+{
+  "publisher": {
+    "name": "The Oregonian / OregonLive.com",
+    "url": "https://www.oregonlive.com",
+    "description": "Oregon's largest newspaper and the oldest continuously published newspaper on the U.S. West Coast, founded 1850.",
+    "parent": "Advance Local Media LLC"
+  },
+  "feeds": {
+    "baseUrl": "https://www.oregonlive.com/arc/outboundfeeds/rss",
+    "defaultParams": "?outputType=xml",
+    "maxItems": 50,
+    "sitemapBase": "https://www.oregonlive.com/arc/outboundfeeds/news-sitemap-index/?outputType=xml"
+  },
+  "categories": {
+    "news": {
+      "name": "News",
+      "slug": "news",
+      "description": "General news coverage for Oregon and the Pacific Northwest"
+    },
+    "sports": {
+      "name": "Sports",
+      "slug": "sports",
+      "description": "Sports coverage including local and national sports"
+    },
+    "weather": {
+      "name": "Weather",
+      "slug": "weather",
+      "description": "Oregon weather forecasts, alerts, and climate news"
+    },
+    "business": {
+      "name": "Business",
+      "slug": "business",
+      "description": "Business and economy news for Oregon and beyond"
+    },
+    "opinion": {
+      "name": "Opinion",
+      "slug": "opinion",
+      "description": "Editorials, columns, letters, and commentary"
+    },
+    "entertainment": {
+      "name": "Entertainment",
+      "slug": "entertainment",
+      "description": "Arts, entertainment, movies, music, and culture"
+    },
+    "politics": {
+      "name": "Politics",
+      "slug": "politics",
+      "description": "Political news and government coverage"
+    },
+    "crime": {
+      "name": "Crime",
+      "slug": "crime",
+      "description": "Crime and public safety reporting"
+    },
+    "education": {
+      "name": "Education",
+      "slug": "education",
+      "description": "Education news and school coverage"
+    },
+    "environment": {
+      "name": "Environment",
+      "slug": "environment",
+      "description": "Environmental news and sustainability"
+    },
+    "dining": {
+      "name": "Dining",
+      "slug": "dining",
+      "description": "Restaurant reviews, food news, and dining guides"
+    },
+    "beer": {
+      "name": "Beer",
+      "slug": "beer",
+      "description": "Oregon's craft beer scene and brewery coverage"
+    },
+    "travel": {
+      "name": "Travel",
+      "slug": "travel",
+      "description": "Travel guides, destinations, and trip ideas"
+    },
+    "portland": {
+      "name": "Portland",
+      "slug": "portland",
+      "description": "Portland metro area news and stories"
+    }
+  },
+  "sportsTeams": {
+    "blazers": {
+      "name": "Portland Trail Blazers",
+      "slug": "blazers",
+      "league": "NBA",
+      "description": "Portland Trail Blazers NBA basketball coverage"
+    },
+    "ducks": {
+      "name": "Oregon Ducks",
+      "slug": "ducks",
+      "league": "NCAA (Pac-12)",
+      "description": "University of Oregon Ducks athletics"
+    },
+    "beavers": {
+      "name": "Oregon State Beavers",
+      "slug": "beavers",
+      "league": "NCAA (Pac-12)",
+      "description": "Oregon State University Beavers athletics"
+    },
+    "timbers": {
+      "name": "Portland Timbers",
+      "slug": "timbers",
+      "league": "MLS",
+      "description": "Portland Timbers MLS soccer coverage"
+    },
+    "thorns": {
+      "name": "Portland Thorns",
+      "slug": "thorns",
+      "league": "NWSL",
+      "description": "Portland Thorns NWSL soccer coverage"
+    }
+  },
+  "adConfig": {
+    "provider": "placeholder",
+    "defaultPlacements": ["banner-top", "inline-article", "sidebar", "footer"],
+    "categoryTargeting": true,
+    "contextualKeywords": true,
+    "note": "Replace provider and endpoint configuration with your ad server details (e.g., Google Ad Manager, etc.)"
+  }
+}
