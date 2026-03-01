@@ -31,36 +31,18 @@ Built with [mcp-hatchery](https://www.npmjs.com/package/mcp-hatchery) convention
 | `get-ad-placement` | Ad slot configuration for a given placement (banner-top, inline-article, sidebar, footer) — placeholder for wiring to Google Ad Manager or similar |
 | `get-contextual-ads` | Contextual ad suggestions based on content category and keywords — returns recommended advertiser types, CPM ranges, and audience profiles |
 
-## Setup
-
-```bash
-npm install
-```
-
 ## Usage
 
-### Local (stdio)
+### Claude Desktop / Claude Code
 
-```bash
-npm start
-```
-
-### Claude Code
-
-```bash
-claude mcp add the-oregonian -- node /absolute/path/to/the-oregonian-mcp/src/index.js
-```
-
-### Claude Desktop
-
-Add to your MCP configuration (`claude_desktop_config.json`):
+Add to your MCP configuration — no install required:
 
 ```json
 {
   "mcpServers": {
     "the-oregonian": {
-      "command": "node",
-      "args": ["/absolute/path/to/the-oregonian-mcp/src/index.js"]
+      "command": "npx",
+      "args": ["the-oregonian-mcp"]
     }
   }
 }
