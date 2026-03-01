@@ -42,7 +42,7 @@ Add to your MCP configuration — no install required:
   "mcpServers": {
     "the-oregonian": {
       "command": "npx",
-      "args": ["the-oregonian-mcp"]
+      "args": ["-y", "the-oregonian-mcp"]
     }
   }
 }
