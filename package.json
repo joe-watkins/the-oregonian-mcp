@@ -1,6 +1,6 @@
 {
   "name": "the-oregonian-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server for OregonLive.com / The Oregonian newspaper — provides tools for fetching news, sports, weather, and more via RSS feeds, plus ad support.",
   "type": "module",
   "main": "src/index.js",
