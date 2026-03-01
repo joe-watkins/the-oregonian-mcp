@@ -1,0 +1,13 @@
+# Netlify deployment (not needed for npm package)
+netlify/
+netlify.toml
+
+# Development files
+.gitignore
+.env
+.DS_Store
+*.log
+
+# Git
+.git/
+.netlify/
