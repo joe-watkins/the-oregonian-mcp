@@ -31,23 +31,11 @@ Built with [mcp-hatchery](https://www.npmjs.com/package/mcp-hatchery) convention
 | `get-ad-placement` | Ad slot configuration for a given placement (banner-top, inline-article, sidebar, footer) — placeholder for wiring to Google Ad Manager or similar |
 | `get-contextual-ads` | Contextual ad suggestions based on content category and keywords — returns recommended advertiser types, CPM ranges, and audience profiles |
 
-## Installation
-
-```bash
-npm install -g the-oregonian-mcp
-```
-
-Or use without installing via `npx`:
-
-```bash
-npx the-oregonian-mcp
-```
-
 ## Usage
 
 ### Claude Desktop / Claude Code
 
-Add to your MCP configuration using `npx` (no install required):
+Add to your MCP configuration — no install required:
 
 ```json
 {
@@ -58,26 +46,6 @@ Add to your MCP configuration using `npx` (no install required):
     }
   }
 }
-```
-
-Or if installed globally:
-
-```json
-{
-  "mcpServers": {
-    "the-oregonian": {
-      "command": "the-oregonian-mcp"
-    }
-  }
-}
-```
-
-### Local (stdio)
-
-```bash
-the-oregonian-mcp
-# or
-npx the-oregonian-mcp
 ```
 
 ### Remote (Netlify)
